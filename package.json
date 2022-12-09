@@ -1,0 +1,13 @@
+{
+    "name": "myownrestaurant",
+    "version": "1.0.0",
+    "devDependencies": {
+        "@parcel/packager-raw-url": "^2.8.1",
+        "@parcel/transformer-webmanifest": "^2.7.0",
+        "parcel": "^2.7.0",
+        "prettier": "^2.7.1"
+    },
+    "scripts": {
+        "start": "npx parcel src/index.html"
+    }
+}
