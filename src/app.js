@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
       var mouseY = e.clientY;
   
       if (!initCursor) {
-        // cursor.style.opacity = 1;
         TweenLite.to(cursor, 0.3, {
           opacity: 1
         });
