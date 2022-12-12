@@ -92,3 +92,68 @@ body{
     animation: textani 0.75s ease-out 1.5s forwards;
 
 }
+
+.logo{
+    height: 200px;
+    width: 200px;
+}
+
+#navPrinc{
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+    padding-top: 2%;
+}
+
+#navPrinc a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+main > #content >section:not(:target){
+	display: none;
+}
+
+.gradientText{
+  background-color: red;
+  
+  background-image: linear-gradient(45deg, #F3896F, #DC78B3);
+  
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+#meP{
+    border-radius: 50%;
+    height: 325px;
+    width: 350px;
+    background-image: url('./img/me.jpg');
+    
+    animation: aniMe 5s;
+    animation-delay: 5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+#aboutMe{
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+
+#aboutMe p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    width: 50%;
+    margin-left: 10%;
+}
