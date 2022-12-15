@@ -157,3 +157,18 @@ main > #content >section:not(:target){
     width: 50%;
     margin-left: 10%;
 }
+
+#cv{
+    margin: 5%;
+    padding: 2%;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, #F3896F, #DC78B3);
+}
+
+#myCv{
+    background-color: white;
+    padding: 2%;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 10px;
+}
