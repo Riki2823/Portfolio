@@ -38,3 +38,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
       initCursor = false;
     };
 });
+
+function appearEstudios(){
+  document.getElementById('estudios').style.display="inline";  
+}
+
+function appearTrabajos(){
+  document.getElementById('trabajos').style.display="inline";  
+}
+
+function appearIntereses(){
+  document.getElementById('intereses').style.display="inline";  
+}

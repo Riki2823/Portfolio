@@ -159,9 +159,10 @@ main > #content >section:not(:target){
     margin-left: 10%;
 }
 
-#cv{
+#cvC{
     margin: 5%;
     margin-top: 0;
+    margin-bottom: 2%;
     padding: 2%;
     border-radius: 5px;
     background-image: linear-gradient(to bottom right, #F3896F, #DC78B3);
@@ -228,4 +229,35 @@ button{
 
 #cvButtonInt:hover{
     background-image: url(./img/Hobbies-w.png);
+}
+
+.cvInfoContainer{
+    margin: 5%;
+    margin-top: 0;
+    padding: 2%;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, #F3896F, #DC78B3);
+}
+
+.cvInfo{
+    background-color: white;
+    padding: 2%;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 10px;
+}
+
+#cv > article:not(:target){
+    display: none;
+}
+
+
+#cvInfo p{
+    font-size: 25px;
+    margin: 2%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    border-radius: 10px
 }

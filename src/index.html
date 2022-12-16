@@ -61,18 +61,48 @@
 
 
             <section id="cv">
-                <div id="myCv">
-
-                    <p>Bienvenido a mi CV interactivo! Si quieres consultar alguno de los apartados haz click sobre los elementos</p>
-
-                    
-                    <div id="cvbContainer">
-                        <button class="cvButton" id="cvButtonEst"> </button>
-                        <button class="cvButton" id="cvButtonTra"></button>
-                        <button class="cvButton" id="cvButtonInt"></button>    
-                    </div>
+                <div id="cvC">
+                    <div id="myCv">
+                        <p>Bienvenido a mi CV interactivo! Si quieres consultar alguno de los apartados haz click sobre los elementos</p>
+                        <div id="cvbContainer">
+                            <button class="cvButton" id="cvButtonEst" onclick="appearEstudios()"></button>
+                            <button class="cvButton" id="cvButtonTra" onclick="appearTrabajos()"></button>
+                            <button class="cvButton" id="cvButtonInt" onclick="appearIntereses()"></button>    
+                        </div>
+                    </div>    
                 </div>
+
+                <article id="estudios">
+                    <div class="cvInfoContainer">
+                        <div class="cvInfo">
+                            <ul>
+                                <li>
+                                    <h1 class="trabajosTitle"></h1>
+                                    <p class="trabajosDate"></p>
+                                </li>
+                              </ul>
+                        </div>    
+                    </div>
+                </article>
+
+                <article id="trabajos">
+                    <div class="cvInfoContainer">
+                        <div class="cvInfo">
+                            <p>text</p>
+                        </div>    
+                    </div>
+                </article>
+
+                <article id="intereses">
+                    <div class="cvInfoContainer">
+                        <div class="cvInfo">
+                            <p>text</p>
+                        </div>    
+                    </div>
+                </article>
+
             </section>
+
         </div>
     
     </main>
