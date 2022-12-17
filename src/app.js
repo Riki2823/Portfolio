@@ -41,12 +41,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 function appearEstudios(){
   document.getElementById('estudios').style.display="inline";  
+  document.getElementById('trabajos').style.display="none";
+  document.getElementById('intereses').style.display="none";
 }
 
 function appearTrabajos(){
   document.getElementById('trabajos').style.display="inline";  
+  document.getElementById('estudios').style.display="none";
+  document.getElementById('intereses').style.display="none";
 }
 
 function appearIntereses(){
-  document.getElementById('intereses').style.display="inline";  
+  document.getElementById('intereses').style.display="inline"; 
+  document.getElementById('trabajos').style.display="none";
+  document.getElementById('estudios').style.display="none"; 
 }

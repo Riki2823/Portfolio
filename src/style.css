@@ -10,7 +10,7 @@
 body{
     background-color: black;
     color: white;
-    overflow: hidden;
+   /* overflow: hidden;*/
 }
 #mainHC{
     position: relative;
@@ -262,3 +262,27 @@ button{
     padding: 2%;
     border-radius: 10px
 }
+
+.trabajosTitle{
+    font-size: 45px;}
+
+#logoNunsys{
+    height: 70px;
+    width: 70px;
+    background-color: black;
+
+    border-radius: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#workDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
