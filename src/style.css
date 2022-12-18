@@ -177,7 +177,7 @@ main > #content >section:not(:target){
     border-radius: 10px;
 }
 #myCv p{
-    font-size: 25px;
+    font-size: 35px;
     margin: 2%;
     text-align: center;
     background-color: black;
@@ -232,7 +232,7 @@ button{
     background-image: url(./img/Hobbies-w.png);
 }
 
-.cvInfoContainer{
+.gradientContainer{
     margin: 5%;
     margin-top: 0;
     padding: 2%;
@@ -240,7 +240,7 @@ button{
     background-image: linear-gradient(to bottom right, #F3896F, #DC78B3);
 }
 
-.cvInfo{
+.whiteContainer{
     background-color: white;
     padding: 2%;
     color: black;
@@ -263,10 +263,10 @@ button{
     border-radius: 10px
 }
 
-.trabajosTitle{
+.cvTitle{
     font-size: 45px;}
 
-#logoNunsys{
+.logoCv{
     height: 70px;
     width: 70px;
     background-color: black;
@@ -284,5 +284,23 @@ ul{
     gap: 25px;
     align-items: center;
     margin-bottom: 2%;
+
 }
 
+.trabajosDate{
+    width: 50%;
+    font-size: 35px;
+}
+
+
+li:not(:last-child) {
+    margin-bottom: 5%;
+}
+
+
+
+
+
+#project{
+    margin-bottom: 2%;
+}
