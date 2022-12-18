@@ -297,10 +297,17 @@ li:not(:last-child) {
     margin-bottom: 5%;
 }
 
-
-
-
-
 #project{
     margin-bottom: 2%;
+}
+
+#rrssContainer{
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logoRS{
+    width: 150px;
+    height: 150px;
 }
