@@ -9,6 +9,6 @@
         "prettier": "^2.7.1"
     },
     "scripts": {
-        "start": "npx parcel src/index.html"
+        "start": "npm run build"
     }
 }
